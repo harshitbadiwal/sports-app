@@ -1,7 +1,9 @@
-
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import styles from "./StartPage.module.scss"
 const page = () => {
+  const [renser,setRender] = useState()
+  console.log("DATA")
   return (
     <div className={styles.container}>
     <div className={styles.leftSection}>
