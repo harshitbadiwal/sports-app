@@ -42,28 +42,45 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
       animation: slideInLeft 2s ease-out;
+      // background-image: url(../../../../public/images/earthBackground-removebg-preview.png);
+      // background-repeat:no-repeat;
+      // opacity:.9;
+       .img{
+        // height: 100%;
+       
+       zoom: 1.1;
+      opacity: 0.25;;
+       }
+      
   
       .locationPicker {
+        height: 85vh;
+        position: absolute;
         text-align: center;
         animation: fadeIn 2.2s ease-in;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
   
         .icon img {
-          width: 80px;
+          width: 150px;
+          // height: 180px;
           margin-bottom: 1rem;
           animation: fadeIn 2.5s ease-in;
         }
   
         h2 {
           font-size: 1.5rem;
-          color: #848484;
+          color: white;
           margin-bottom: 0.5rem;
           animation: fadeIn 2.4s ease-in;
         }
   
         p {
           font-size: 1rem;
-          color: #666;
+          color: white;
           margin-bottom: 1rem;
           animation: fadeIn 2.6s ease-in;
         }
@@ -179,3 +196,11 @@
         }
         }
     } 
+    .leftSection2{
+      flex: 1;
+      background: black;
+      display: flex;
+      justify-content: center;
+      // align-items: center;
+      animation: slideInLeft 2s ease-out;
+    }
