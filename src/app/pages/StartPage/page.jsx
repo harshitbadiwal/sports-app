@@ -45,16 +45,7 @@ const BootstrapInput = styled(InputBase)(({ theme }) => ({
 }));
 
 const page = () => {
-<<<<<<< HEAD
-  const [renser,setRender] = useState()
-  console.log("DATA")
-=======
-  const [render, setRender] = useState(false);
 
-  const pickyourLocation = () => {
-    setRender(true);
-  };
-  console.log(render);
   const [anchorEl, setAnchorEl] = React.useState(null);  const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -63,7 +54,7 @@ const page = () => {
     setAnchorEl(null);
   };
 
->>>>>>> 8fb76c3d46d7e1ed68f05b6948728d6949b8d929
+// >>>>>>> 8fb76c3d46d7e1ed68f05b6948728d6949b8d929
   
   return (
     <div className={styles.container}>
